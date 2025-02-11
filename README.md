@@ -1,4 +1,4 @@
-# User Service
+# User Service 
 
 User Service is a Spring Boot microservice designed for user management. It provides functionalities such as user registration, login, and profile management. The service implements JWT-based authentication and supports role-based access control to secure its endpoints.
 
