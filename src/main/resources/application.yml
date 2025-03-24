@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    url: ${url_datasource}
+    username: ${db_username}
+    password: ${db_password}
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  flyway:
+    locations: classpath:db/migration
+server:
+  port: 8080
